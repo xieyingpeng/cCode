@@ -1,0 +1,14 @@
+﻿  xyp.cpp
+E:\c++Code\Test\xyp.cpp(18,9): warning C4101: “c”: 未引用的局部变量
+test1.obj : error LNK2005: _main 已经在 main.obj 中定义
+xyp.obj : error LNK2005: "void __cdecl judgmentGrade(void)" (?judgmentGrade@@YAXXZ) 已经在 main.obj 中定义
+xyp.obj : error LNK2005: "void __cdecl printDelete(void)" (?printDelete@@YAXXZ) 已经在 main.obj 中定义
+xyp.obj : error LNK2005: "void __cdecl printPerson(void)" (?printPerson@@YAXXZ) 已经在 main.obj 中定义
+xyp.obj : error LNK2005: "void __cdecl scoreSort(void)" (?scoreSort@@YAXXZ) 已经在 main.obj 中定义
+xyp.obj : error LNK2005: _main 已经在 main.obj 中定义
+test1.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall Student::Student(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int)" (??0Student@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)，函数 _main 中引用了该符号
+test1.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall Student::~Student(void)" (??1Student@@QAE@XZ)，函数 _main 中引用了该符号
+test1.obj : error LNK2019: 无法解析的外部符号 "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Student::get_stdname(void)" (?get_stdname@Student@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)，函数 _main 中引用了该符号
+test1.obj : error LNK2019: 无法解析的外部符号 "public: static int __cdecl Student::get_totalnum(void)" (?get_totalnum@Student@@SAHXZ)，函数 _main 中引用了该符号
+test1.obj : error LNK2019: 无法解析的外部符号 "public: static int __cdecl Student::get_totalnum(class Student &)" (?get_totalnum@Student@@SAHAAV1@@Z)，函数 _main 中引用了该符号
+E:\c++Code\Test\Debug\Test.exe : fatal error LNK1120: 5 个无法解析的外部命令
